@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ////////////////////////// mobile  /////////////////////////////////////////// */
+@media screen and (min-width: 280px){  /* uso la medida 280px por que es la mas chica en celulares, aun que los fold no sean muy comunes */
+    @media screen and (max-width: 768px){    /* si no uso el max-width me salen problemas el la version dekstop */
+ 
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(27, 24, 24);
+        color: rgb(239, 224, 224);
+        min-height: 100%;
+        
+    }
+    
+     .header {
+        height: 25%;
+        width: 768px;
+        background-color: brown;
+        position: relative;
+        top: 0px;
+    }
+    .navmobile{
+        align-content: center;
+    }
+    ol{
+        list-style: none;
+    }
+     ul li {
+            margin-left: 25vh;
+            width: 25%;
+            text-align: center;
+            border-radius: 20px;
+            border: 10px outset rgb(27, 24, 24);
+            display: flex;
+            flex-direction: column;
+            padding: 0vh;
+        }
+        footer{
+            background-color: brown;
+            height: 100%;
+            bottom: 0;
+            padding-top: 1vh;
+            align-content: center;
+            align-items: center;
+            width: 768px;
+        }
+        .listaFooter ul li{
+            border-radius: 20px;
+            border: 10px outset rgb(27, 24, 24);
+            display: flex;
+            flex-direction: column;
+            padding-left:  0px;
+            margin-right: 4%;
+            padding: 1vh;
+            width: 768px;
+        }
+    }
+        
+    .Opiniones{
+        margin-top: 20vh;
+        border: 2vh outset brown;
+        border-radius: 20px;
+        text-align: center;
+        padding: 0;
+        }
+
+        .reseñas{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        
+        .box {
+            width: 400px;
+            height: 225px;
+            border: 4px brown outset;
+            margin-top: 70px;
+            margin-left: 50px;
+        }
+        .boxcelulares{
+            margin-left: 72vh;
+            margin-top: 100px;
+            height: 100vh;
+            width: 52vh;
+            flex-wrap: wrap;
+            border: 4px brown outset;
+        }
+        .boton{
+            padding: 5px;
+            margin-top: 0px;
+            margin-right: 0px;
+            display: inline-block;
+        }
+        .contacto{
+            margin-top: 5vh;
+        }
+        .parrafo{
+            border: 4px outset brown;
+            text-align: center;
+            margin-bottom: 10vh;
+            margin-top: 10vh;
+            margin-left: 10vh;
+            width: 50%;
+            padding: 1vh;
+
+    
+        }
+    }
+  
+
+
+
+/* ----------------------------------- tablet -----------------------------------*/
+
+ @media screen  and (min-width:768px){
+    .cuerpo{
+        color: rgb(239, 224, 224);
+        background-color: rgb(27, 24, 24);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-height: 100%;
+        position: relative;
+    }
+    .header{   
+        height: 15vh;
+        background-color: brown;
+        padding-left:0;
+        padding-top: 0px;
+        position: sticky;
+        top: 0px;
+    }   
+    ul li  {
+        border-radius: 20px;
+        border: 10px outset rgb(27, 24, 24);
+        display: inline-block;
+        padding-left:  0px;
+        margin-right: 1%;
+        padding: 1vh;
+    }
+    .logoAndroid{ /*es solamente estetico, podria remplazarlo con una imagen pero me gusta como queda*/
+    border-radius: 50px;
+    border: 5px greenyellow solid;
+    background-color: rgb(60, 50, 50);
+    padding: 0;
+    }
+   
+    .Opiniones{
+        margin-top: 20vh;
+        border: 2vh outset brown;
+        border-radius: 20px;
+        text-align: center;
+        padding: 0;
+    }
+    .accesorios{
+        padding-top: 5px;
+        padding-bottom: 2rem;
+    }
+    .reseñas{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    
+    .box {
+        width: 400px;
+        height: 225px;
+        border: 4px brown outset;
+        margin-top: 70px;
+        margin-left: 50px;
+    }
+    .boxcelulares{
+        margin-left: 72vh;
+        margin-top: 100px;
+        height: 330px;
+        width: 400px;
+        flex-wrap: wrap;
+        border: 4px brown outset;
+    }
+    .boton{
+        padding: 5px;
+        margin-top: 0px;
+        margin-right: 0px;
+        display: inline-block;
+    }
+    .contacto{
+        margin-top: 5vh;
+    }
+    .parrafo{
+        border: 4px outset brown;
+        text-align: center;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+        margin-left: 5vh;
+        width: 100vh;
+        padding: 1vh;
+
+    }
+
+
+
+
+
+
+    /*footer{
+        background-color: brown;
+        height: 27vh;
+        bottom: 0;
+        margin-top: 1vh;
+    }
+    .listaFooter li {
+        border-radius: 20px;
+        border: 10px outset rgb(27, 24, 24);
+        display: inline-block;
+        padding-left:  0px;
+        margin-right: 4%;
+        padding: 1vh;
+    }*/
+        
+
+    
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ************************************* dekstpop ************************************* */
+@media screen and (min-width: 1080px){
+    .cuerpo{
+        color: rgb(239, 224, 224);
+        background-color: rgb(27, 24, 24);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        min-height: 100vh;
+        position: relative;
+    }
+        
+    .header{   
+        height: 15vh;
+        background-color: brown;
+        padding-left: 10vh;
+        padding-top: 0px;
+        position: sticky;
+        top: 0px;
+    }
+
+
+    ul li  {
+        border-radius: 20px;
+        border: 10px outset rgb(27, 24, 24);
+        display: inline-block;
+        padding-left:  0px;
+        margin-right: 4%;
+        padding: 1vh;
+    }
+    .escalar:hover{
+      transform: scale(1.2);
+      transition: 2s; /*aplicar al footer cuando termine la parte de grids*/
+    }
+    .logoAndroid{ /*es solamente estetico, podria remplazarlo con una imagen pero me gusta como queda*/
+        border-radius: 50px;
+        border: 5px greenyellow solid;
+        background-color: rgb(60, 50, 50);
+        padding: 0;
+        grid-area: logo;
+    }
+    
+    .Opiniones{
+    margin-top: 20vh;
+    border: 2vh outset brown;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0;
+    }
+    
+    .reseñas{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+    .box {
+    width: 400px;
+    height: 225px;
+    border: 4px brown outset;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+    .boxcelulares{
+    margin-left: 72vh;
+    margin-top: 100px;
+    height: 330px;
+    width: 400px;
+    flex-wrap: wrap;
+    border: 4px brown outset;
+}
+    .parrafo{
+        border: 4px outset brown;
+        text-align: center;
+        margin-bottom: 10vh;
+        margin-top: 10vh;
+        margin-left: 5vh;
+        width: 100vh;
+        padding: 1vh;
+
+    }
+    .pie{
+        width: 100%;
+        background-color: brown;
+
+    }
+
+    .trabajo{
+        grid-area: trabjo;
+        margin-top: 41%;
+    }
+    .terminosycondiciones{
+        grid-area: trabajo;
+        margin-top: 20%;
+    }
+    .fb{
+        grid-area: fb;
+    }
+    .ig{
+        grid-area: ig;
+        margin-top: 10%;
+    }
+
+    .ds{
+        grid-area: ds;
+        margin-top: 10%;
+    }
+
+    .grid{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 25% 25%;
+        grid-template-rows: 20% 20% 20%;
+        grid-template-areas: 
+        "trabajo" "fb"
+        "trbajo" "ig"
+        "terminosycondiciones" "ds";
+    }
+
+
+  .borde{
+    border: 10px outset rgb(27, 24, 24);
+    border-radius: 20px;
+    padding: 5%;
+  }
+
+
+
+
+    /*
+    footer{
+        background-color: brown;
+        height: 27vh;
+        bottom: 0;
+        padding-top: 1vh;
+    }
+    
+    .listaFooter li{
+        border-radius: 20px;
+        border: 10px outset rgb(27, 24, 24);
+        display: inline-block;
+        padding-left:  0px;
+        margin-right: 4%;
+        padding: 1vh;
+        }*/
+
+}
