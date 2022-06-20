@@ -4,6 +4,32 @@
     padding: 0;
     margin: 0;
 }
+
+.bsas{
+    color: brown;
+  }
+
+  .pie{
+    margin-top: 5vh;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+    height: auto;
+    width: auto;
+    background-color: brown;
+
+}
+.header {
+    height: 25%;
+    width: auto;
+    background-color: brown;
+    position: relative;
+    top: 0px;
+}
+
+
+
+
+
 /* ////////////////////////// mobile  /////////////////////////////////////////// */
 @media screen and (min-width: 280px){  /* uso la medida 280px por que es la mas chica en celulares, aun que los fold no sean muy comunes */
     @media screen and (max-width: 768px){    /* si no uso el max-width me salen problemas el la version dekstop */
@@ -17,13 +43,7 @@
         
     }
     
-     .header {
-        height: 25%;
-        width: 768px;
-        background-color: brown;
-        position: relative;
-        top: 0px;
-    }
+
     .navmobile{
         align-content: center;
     }
@@ -40,7 +60,7 @@
             flex-direction: column;
             padding: 0vh;
         }
-        footer{
+        /*footer{
             background-color: brown;
             height: 100%;
             bottom: 0;
@@ -48,7 +68,7 @@
             align-content: center;
             align-items: center;
             width: 768px;
-        }
+        } */
         .listaFooter ul li{
             border-radius: 20px;
             border: 10px outset rgb(27, 24, 24);
@@ -124,15 +144,7 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         min-height: 100%;
         position: relative;
-    }
-    .header{   
-        height: 15vh;
-        background-color: brown;
-        padding-left:0;
-        padding-top: 0px;
-        position: sticky;
-        top: 0px;
-    }   
+    }    
     ul li  {
         border-radius: 20px;
         border: 10px outset rgb(27, 24, 24);
@@ -223,7 +235,7 @@
 
     
 
-}
+
     
 
 
@@ -262,17 +274,7 @@
         min-height: 100vh;
         position: relative;
     }
-        
-    .header{   
-        height: 15vh;
-        background-color: brown;
-        padding-left: 10vh;
-        padding-top: 0px;
-        position: sticky;
-        top: 0px;
-    }
-
-
+         
     ul li  {
         border-radius: 20px;
         border: 10px outset rgb(27, 24, 24);
@@ -308,7 +310,6 @@
 }
 
     .box {
-    width: 400px;
     height: 225px;
     border: 4px brown outset;
     margin-top: 70px;
@@ -328,13 +329,8 @@
         margin-bottom: 10vh;
         margin-top: 10vh;
         margin-left: 5vh;
-        width: 100vh;
+        width: 75vh;
         padding: 1vh;
-
-    }
-    .pie{
-        width: 100%;
-        background-color: brown;
 
     }
 
@@ -359,16 +355,6 @@
         margin-top: 10%;
     }
 
-    .grid{
-        text-align: center;
-        display: grid;
-        grid-template-columns: 25% 25%;
-        grid-template-rows: 20% 20% 20%;
-        grid-template-areas: 
-        "trabajo" "fb"
-        "trbajo" "ig"
-        "terminosycondiciones" "ds";
-    }
 
 
   .borde{
@@ -377,29 +363,9 @@
     padding: 5%;
   }
 
-  .bsas{
-    color: brown;
-    background-color: brown;
-  }
 
 
 
-
-    /*
-    footer{
-        background-color: brown;
-        height: 27vh;
-        bottom: 0;
-        padding-top: 1vh;
-    }
-    
-    .listaFooter li{
-        border-radius: 20px;
-        border: 10px outset rgb(27, 24, 24);
-        display: inline-block;
-        padding-left:  0px;
-        margin-right: 4%;
-        padding: 1vh;
-        }*/
+}
 
 }
