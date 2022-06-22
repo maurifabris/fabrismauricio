@@ -38,32 +38,55 @@
         </nav>
     </header>
     <h1 class="contacto">Contacto</h1>
-    <section class="sectionContacto">
-        <label for="email" class="contacto">su email:
-            <input type="email" placeholder="xxxx@email.com" name="email">
-        </label>
-        <div class="contacto">
-            <p class="cuestionario">que te interesa de nosotros?:</p>
-            <div>
-                <p>
-                    telefonos
-                </p>
-                <input type="radio" name="telefonos" value="telefonos" class="contacto">
-            </div>
-            <div class="contacto">
-                <p>
-                    reseñas
-                </p>  
-                <input type="radio" name="reselas" value="reseñas">
-            </div>
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
         </div>
-        </label>
-        <p class="cuestionario contacto">
-            Teléfono: <input type="tel" name="telefono" placeholder="(Código de área) Número">
-        </p>
-        <input type="submit" value=" confirmar datos" class="boton contacto">
-        <input type="reset" value="borrar datos" class="boton contacto"> 
-    </section>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">linkedin</label>
+          <input type="text" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">intereses</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">telefono</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">provincia/departamento</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Seleccione su pais</label>
+          <select id="inputState" class="form-select">
+            <option selected>Pais</option>
+            <option>Argentina</option>
+            <option>Bolivia</option>
+            <option>Peru</option>
+            <option>Uruguay</option>
+            <option>Ecuador</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">ciudad</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Quiere resibir nuestras novedades en su email?
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+
     <footer class="pie">
         <div class="container">
             <div class="row row-cols-4">

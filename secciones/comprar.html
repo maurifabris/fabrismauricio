@@ -42,47 +42,70 @@
         </nav>
     </header>
     <h1>Confirme su compra</h1>
-    <section id="sectioncompra">
-        <label for="email">Su email:
-            <input type= "email" placeholder="xxxx@email.com">
-        </label>
-        <label for="direccion">Su direccion:
-            <input type="text" placeholder="calle y numero" name="direccion">
-        </label>
-        <label for="obcervaciones" name="obcervaciones" id="boxobservaciones">Observaciones de la vivienda:
-            <textarea placeholder="cualquier descripcion que pueda ayudar al repartidor" id="areaFija"></textarea>
-        </label>
-        <div  id="colorDeCompra">
-            <p>Color deseado:</p>
-                <p id="pCompra">Azul</p><input type="radio" name="color" value="azul" class="inputCompra">
-                <p>Rojo</p><input type="radio" name="color" value="rojo" class="inputCompra">
-            </div>
-            <div>
-                <p  class="compra box2">Que dia quiere resivir el envio?</p>
-                <select name="diadeenvio" id="diaDeEnvio" > 
-                    <option value="martes">Martes</option>
-                    <option value="jueves">Jueves</option>
-                    <option value="viernes">Viernes</option>
-                </select>
-            </div>
-            <label for="text"  class="compra">Su numero de tarjeta:
-                <input type="number"  placeholder="XXXX XXXX XXXX XXXX" name="numerodetarjeta">
-            </label>
-
-            <label for= "nombreDeTarjeta"  class="compra"  class="compra"> Nombre:
-                <input type="text" placeholder="como aparece en la tarjeta" name="nombreDeTarjeta" >
-            </label>
-            <label for="vencimiento" class="compra">Fecha de vencimiento de la tarjeta:
-                <input type="date" name="vencimiento">
-            </label>
-            <p>
-                Teléfono: <input type="tel" name="telefono" placeholder="(Código de área) Número">
-            </p>
-            <input type="submit" value=" Confirmar compra">
-            <input type="reset" value="Borrar datos">          
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
         </div>
-    </section>
-    <footer class="pie">
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Codigo de descuento</label>
+          <input type="text" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">codigo postal</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="X-X-X-X">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">telefono</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Envio</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Que dia quiere resibir</label>
+          <select id="inputState" class="form-select">
+            <option selected>dia</option>
+            <option>lunes</option>
+            <option>miercoles</option>
+            <option>viernes</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">ciudad</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" placeholder="Comentarios para el correo" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">comentarios</label>
+          </div>
+          <div class="form-check colorpedido">
+            <p> De que color quiere su pedido?</p>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label " for="flexRadioDefault1">
+              negro
+            </label>
+          </div>
+          <div class="form-check colorpedido">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              blanco
+            </label>
+          </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Quiere resivir nuestras novedades en su email?
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+      <footer class="pie">
         <div class="container">
             <div class="row row-cols-4">
               <div class="col escalar">

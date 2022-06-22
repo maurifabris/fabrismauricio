@@ -28,7 +28,31 @@
 
 
 
+.card-body{
+    color: black;
+}
 
+
+.colorpedido{
+    margin-left: 1vh;
+}
+img{
+    max-width: 200px;               /*esto es solo para que queden todas las card iguales*/
+    max-height: 112px;
+    align-self: center;
+}
+.col{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.borde{
+    border: 10px outset rgb(27, 24, 24);
+    border-radius: 20px;
+    padding: 5%;
+  }
 
 /* ////////////////////////// mobile  /////////////////////////////////////////// */
 @media screen and (min-width: 280px){  /* uso la medida 280px por que es la mas chica en celulares, aun que los fold no sean muy comunes */
@@ -121,7 +145,7 @@
         }
         .parrafo{
             border: 4px outset brown;
-            text-align: center;
+            align-self: center;
             margin-bottom: 10vh;
             margin-top: 10vh;
             margin-left: 10vh;
@@ -357,11 +381,11 @@
 
 
 
-  .borde{
-    border: 10px outset rgb(27, 24, 24);
-    border-radius: 20px;
-    padding: 5%;
-  }
+    .borde{
+        border: 10px outset rgb(27, 24, 24);
+        border-radius: 20px;
+        padding: 5%;
+      }
 
 
 
