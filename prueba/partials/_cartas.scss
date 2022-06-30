@@ -1,0 +1,26 @@
+@import "../base/base";
+
+
+
+section{
+    .cardcelular{
+        margin-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card-body{
+        color: black;
+        bottom: 0;
+    }
+    img{
+        max-width: 200px;               /*esto es solo para que queden todas las card iguales*/
+        max-height: 112px;
+        align-self: center;
+    }
+
+}
+    .card-body{
+    color: black;
+
+}
+

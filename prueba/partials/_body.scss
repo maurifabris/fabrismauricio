@@ -1,0 +1,26 @@
+@import "../base/base";
+
+.cuerpo{
+    color: rgb(239, 224, 224);
+    background-color: rgb(27, 24, 24);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+    position: relative;
+}
+
+body{
+    .parrafo{ 
+    border: 4px outset;
+    border-color: $color-principal;
+    text-align: center;
+    margin-bottom: 10vh;
+    margin-top: 10vh;
+    margin-left: 5vh;
+    width: 100vh;
+    padding: 1vh;
+    }
+    .contact{
+        margin: 10vh 5vh 0 5vh;
+    }
+}
+
