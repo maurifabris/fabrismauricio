@@ -6,6 +6,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     min-height: 100vh;
     position: relative;
+    span{ text-decoration:solid;
+        &:hover{
+            color: $color-principal;
+            transition-duration: 2s; /*cambia el color al principal */
+        }
+    }
 }
 
 body{

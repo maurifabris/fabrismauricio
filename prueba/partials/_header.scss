@@ -1,16 +1,15 @@
 @import "../base/base";
+@import "../base/mixting";
 .header{
     height: 25%;
     width: auto;
     background-color: $color-principal;
     position: relative;
     top: 0px;
-    ul li  {
-        border-radius: 20px;
-        border: 10px outset rgb(27, 24, 24);
-        display: inline-block;
-        padding-left:  0px;
-        margin-right: 4%;
-        padding: 1vh;
-    }
-}
+    nav{
+        ul li  {
+       @include borde(map-get($color, color-secundario)); /*es un poco innesesario, pero estoy jugando un poco*/
+            }
+        }
+       }
+       

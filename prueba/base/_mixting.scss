@@ -1,0 +1,9 @@
+@mixin borde($colores){
+    border-radius: 20px;
+    border: 10px outset $color;
+    display: inline-block;
+    padding-left:  0px;
+    margin-right: 4%;
+    padding: 1vh;
+
+}

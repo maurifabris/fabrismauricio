@@ -10,6 +10,12 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   min-height: 100vh;
   position: relative; }
+  .cuerpo span {
+    text-decoration: solid; }
+    .cuerpo span:hover {
+      color: brown;
+      transition-duration: 2s;
+      /*cambia el color al principal */ }
 
 body .parrafo {
   border: 4px outset;
