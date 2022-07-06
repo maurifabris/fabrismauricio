@@ -12,15 +12,9 @@ section{
         color: black;
         bottom: 0;
     }
-    img{
-        max-width: 200px;               /*esto es solo para que queden todas las card iguales*/
-        max-height: 112px;
+    img{               /*esto es solo para que queden todas las card iguales*/
         align-self: center;
+        height: 320px;
+        width: 159px;
     }
-
 }
-    .card-body{
-    color: black;
-
-}
-

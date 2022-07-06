@@ -36,7 +36,7 @@ body .contact {
   background-color: brown;
   position: relative;
   top: 0px; }
-  .header ul li {
+  .header nav ul li {
     border-radius: 20px;
     border: 10px outset #1b1818;
     display: inline-block;
@@ -54,13 +54,10 @@ section .card-body {
   bottom: 0; }
 
 section img {
-  max-width: 200px;
   /*esto es solo para que queden todas las card iguales*/
-  max-height: 112px;
-  align-self: center; }
-
-.card-body {
-  color: black; }
+  align-self: center;
+  height: 320px;
+  width: 159px; }
 
 .box {
   border: 4px brown outset;

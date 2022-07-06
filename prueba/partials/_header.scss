@@ -8,8 +8,14 @@
     top: 0px;
     nav{
         ul li  {
-       @include borde(map-get($color, color-secundario)); /*es un poco innesesario, pero estoy jugando un poco*/
+                border-radius: 20px;
+                border: 10px outset $color-secundario;
+                display: inline-block;
+                padding-left:  0px;
+                margin-right: 4%;
+                padding: 1vh;
             }
-        }
-       }
+        }        
+}
+
        
