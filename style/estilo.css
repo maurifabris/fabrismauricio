@@ -20,15 +20,18 @@
 body .parrafo {
   border: 4px outset;
   border-color: brown;
-  text-align: center;
-  margin-bottom: 10vh;
-  margin-top: 10vh;
-  margin-left: 5vh;
-  width: 100vh;
   padding: 1vh; }
 
 body .contact {
   margin: 10vh 5vh 0 5vh; }
+
+iframe {
+  width: 50vh;
+  height: 11,25vh;
+  align-self: center; }
+
+.titulo {
+  align-self: center; }
 
 .header {
   height: 25%;
@@ -38,11 +41,14 @@ body .contact {
   top: 0px; }
   .header nav ul li {
     border-radius: 20px;
-    border: 10px outset #1b1818;
+    background-color: #1b1818;
     display: inline-block;
     padding-left: 0px;
     margin-right: 4%;
     padding: 1vh; }
+    .header nav ul li a {
+      color: white;
+      text-decoration-line: none; }
 
 section .cardcelular {
   margin-top: 5%;
@@ -56,13 +62,18 @@ section .card-body {
 section img {
   /*esto es solo para que queden todas las card iguales*/
   align-self: center;
-  height: 320px;
-  width: 159px; }
+  max-height: 320px;
+  max-width: 159px; }
+
+section .margen {
+  margin-top: 20vh; }
+
+section .botonInalambrico {
+  bottom: 0; }
 
 .box {
   border: 4px brown outset;
-  margin-top: 70px;
-  margin-left: 50px; }
+  margin-top: 70px; }
 
 .reseñas {
   display: flex;
@@ -75,6 +86,9 @@ section img {
   height: auto;
   width: auto;
   background-color: brown; }
+  .pie div div div a {
+    color: white;
+    text-decoration-line: none; }
 
 .escalar:hover {
   transform: scale(1.2);
@@ -82,13 +96,20 @@ section img {
   /*aplicar al footer cuando termine la parte de grids*/ }
 
 .borde {
-  border-radius: 10px outset;
+  border: 10px;
   border-color: brown;
-  /*no se por que no se aplica el borde, propiedades como color se aplicaron bien*/ }
+  /*no se por que no se aplica el borde, propiedades como color se aplicaron bien*/
+  text-decoration: dotted; }
 
 .Opiniones {
   margin-top: 20vh;
   border: 2vh outset brown;
   border-radius: 20px;
   text-align: center;
-  padding: 0; }
+  padding: 0;
+  margin-right: 20px;
+  margin-right: 20px; }
+
+.bodyOpiniones {
+  margin-left: 20%;
+  margin-right: 20%; }

@@ -14,7 +14,16 @@ section{
     }
     img{               /*esto es solo para que queden todas las card iguales*/
         align-self: center;
-        height: 320px;
-        width: 159px;
+        max-height: 320px;
+        max-width: 159px;
+       
     }
+    .margen{
+        margin-top: 20vh;
+    }
+    .botonInalambrico{
+        bottom: 0;
+    }
+    
 }
+

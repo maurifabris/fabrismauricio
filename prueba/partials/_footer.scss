@@ -6,12 +6,23 @@
     height: auto;
     width: auto;
     background-color: $color-principal;
+    div{
+      div{
+        div{
+          a{
+            color: white;
+            text-decoration-line: none;
+        }
+        }
+      }
+    }
     }
     .escalar:hover{
         transform: scale(1.2);
         transition: 2s;        /*aplicar al footer cuando termine la parte de grids*/
     }
       .borde{
-        border-radius: 10px outset;
+        border: 10px;
         border-color: $color-principal;   /*no se por que no se aplica el borde, propiedades como color se aplicaron bien*/
-    }
+        text-decoration: dotted;
+      }

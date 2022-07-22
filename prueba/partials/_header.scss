@@ -1,6 +1,9 @@
 @import "../base/base";
-@import "../base/mixting";
 .header{
+    @media screen and (max-width: 760px) {
+       
+    }
+        
     height: 25%;
     width: auto;
     background-color: $color-principal;
@@ -9,13 +12,18 @@
     nav{
         ul li  {
                 border-radius: 20px;
-                border: 10px outset $color-secundario;
+                background-color: $color-secundario;
                 display: inline-block;
                 padding-left:  0px;
                 margin-right: 4%;
                 padding: 1vh;
+                a{
+                    color: white;
+                    text-decoration-line: none;
+                }
             }
         }        
 }
+
 
        
