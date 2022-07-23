@@ -1,21 +1,22 @@
+   .video{
+        max-width: 200px;
+        max-height: 100px;
+        margin-left: 5px;
+    }
 
     .box {
         border: 4px brown outset;
         margin-top: 70px;
         
     }
-
-    .reseñas {
+    @media screen and (min-width: 480px){
+    .resenias {
         display: flex;
         flex-wrap: wrap;
+        margin-left: 10vh;
 
     }
     .video{
         border:  4px brown outset;
     }
-    @media screen and (max-width: 480px){
-        .video{
-            max-width: 200px;
-            max-height: 100px;
-        }
-    }
+}
